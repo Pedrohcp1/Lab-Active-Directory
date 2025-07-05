@@ -32,7 +32,7 @@ Neste projeto, foi simulada a criação e configuração de uma infraestrutura d
 
 ## 3. Etapas Executadas
 
-###3.1. Configuração do Domínio
+### 3.1. Configuração do Domínio
 
 A criação do ambiente começou com a preparação do servidor principal, seguida pela instalação dos serviços necessários e, finalmente, a configuração do domínio.
 
@@ -51,6 +51,7 @@ Utilizando o "Gerenciador do Servidor" (Server Manager), foi iniciado o assisten
 Active Directory Domain Services (AD DS): O serviço principal, responsável por criar e gerenciar o domínio, autenticar usuários e computadores, e aplicar políticas.
 
 Servidor DNS: O serviço de "catálogo telefônico" da rede, indispensável para que os computadores consigam localizar o controlador de domínio e outros recursos pelo nome.
+
 ![Captura de tela 2025-07-02 193237](https://github.com/user-attachments/assets/89ede6d9-65f7-4784-a9d1-360342ebe94f)
 
 *Figura 2: Demonstra quais ferramentas instalei no servidor para conclusão deste laboratório.*

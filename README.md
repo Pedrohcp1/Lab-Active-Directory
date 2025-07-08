@@ -4,16 +4,14 @@ Este projeto demonstra a criação e o gerenciamento de uma infraestrutura de TI
 
 ---
 
-## 🌳 Fases do Projeto
-
 ### ✅ Fase 1: Fundação do Active Directory (Concluída)
 * **Descrição:** Instalação e configuração de um Controlador de Domínio, DNS, estrutura de OUs, usuários e implementação de Políticas de Grupo (GPOs) para padronização e segurança.
 * **Habilidades Demonstradas:** Windows Server, AD DS, DNS, Group Policy Management, Troubleshooting.
-* **[Ver Detalhes e Screenshots da Fase 1](#fase-1-detalhes)**
+* [Ver Detalhes da Fase 1](#fase-1-detalhes)
 
-### ✅ Fase 2: Automação com PowerShell (Próximos Passos)
+### ✅ Fase 2: Automação com PowerShell (Concluída)
 * **Objetivo:** Desenvolver scripts para automatizar tarefas rotineiras, como a criação de novos usuários em massa a partir de um arquivo CSV.
-* Habilidades Demonstradas: PowerShell Scripting, Automação de Tarefas, Manipulação de Dados (CSV).
+* **Habilidades Demonstradas:** PowerShell Scripting, Automação de Tarefas, Manipulação de Dados (CSV).
 * [Ver Detalhes da Fase 2](./Fase-2-Automacao-PowerShell/README_Fase2.md)
 
 ### 🔜 Fase 3: Servidor de Arquivos e Permissões (Próximos Passos)

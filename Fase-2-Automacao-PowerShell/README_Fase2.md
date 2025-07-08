@@ -124,11 +124,11 @@ Este laboratório prático solidificou conhecimentos em administração de redes
 
 ## <a name="fase-2-detalhes"></a> Fase 2: Detalhes da Automação com PowerShell
 
-#### 1. Objetivo
+## 1. Objetivo
 
 O processo manual de criação de novos usuários ("onboarding") em uma empresa é demorado e suscetível a erros. O objetivo desta fase foi desenvolver uma solução automatizada para provisionar novas contas de usuário no Active Directory de forma rápida, padronizada e eficiente.
 
-#### 2. Componentes da Solução
+## 2. Componentes da Solução
 
 Para alcançar este objetivo, a solução foi dividida em dois componentes principais:
 
@@ -136,7 +136,11 @@ Para alcançar este objetivo, a solução foi dividida em dois componentes princ
 
 * **Script de Automação (`criar_usuarios.ps1`):** O coração da automação é um script desenvolvido em PowerShell. Este script é responsável por ler os dados do arquivo CSV e interagir diretamente com o Active Directory para executar as tarefas de criação de contas.
 
-#### 3. Detalhes da Implementação do Script
+![image](https://github.com/user-attachments/assets/ec424635-70f0-4636-9657-8fad5f14ea76)
+
+Figura 1: Arquivo "novos_funcionários.cvs" criado no bloco de notas.
+
+## 3. Detalhes da Implementação do Script
 
 O script foi projetado para seguir uma lógica clara e robusta:
 
@@ -146,8 +150,18 @@ O script foi projetado para seguir uma lógica clara e robusta:
 4.  **Alocação na OU Correta:** O parâmetro `-Path` do comando `New-ADUser` utiliza a informação da coluna "Departamento" do CSV para alocar o novo usuário automaticamente na Unidade Organizacional (OU) correta, garantindo a organização do AD.
 5.  **Configuração de Segurança:** Seguindo as melhores práticas, o script define uma senha inicial padrão e ativa a opção `-ChangePasswordAtLogon $true`, forçando o usuário a criar sua própria senha no primeiro login.
 
-#### 4. Resultados e Benefícios
+![Captura de tela 2025-07-08 084222](https://github.com/user-attachments/assets/ae954fee-dbe4-441d-80fa-3b32b0d0d1a6)
+
+Figura 2: Script de criação de funcionários executado com êxito no Power Shell ISE.
+
+## 4. Resultados e Benefícios
 
 A execução do script resultou na criação bem-sucedida de 4 novos usuários em seus respectivos departamentos em menos de 5 segundos. Os principais benefícios alcançados são a drástica redução do tempo de trabalho, a eliminação de erros de digitação e a garantia de que todos os novos usuários são criados seguindo um padrão consistente.
 
-*(Aqui é um ótimo lugar para um print do seu PowerShell ISE mostrando o script e a saída bem-sucedida no console, ou um print do Active Directory com os novos usuários já criados em suas OUs corretas)*
+![image](https://github.com/user-attachments/assets/233222db-71ad-426a-b986-16ee928fdccd)
+
+Figura 3: Novos funcionários foram adicionados ao seus departamentos no Active Directory.
+
+
+
+

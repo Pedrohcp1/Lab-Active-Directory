@@ -12,7 +12,7 @@ Este projeto demonstra a criação e o gerenciamento de uma infraestrutura de TI
 ### ✅ Fase 2: Automação com PowerShell (Concluída)
 * **Objetivo:** Desenvolver scripts para automatizar tarefas rotineiras, como a criação de novos usuários em massa a partir de um arquivo CSV.
 * **Habilidades Demonstradas:** PowerShell Scripting, Automação de Tarefas, Manipulação de Dados (CSV).
-* **[Ver Detalhes e Screenshots da Fase 2](#fase-2-detalhes)**
+* [Ver Detalhes e Screenshots da Fase 2](./Fase-2-Automacao-PowerShell/README_Fase2.md)
 
 ### 🔜 Fase 3: Servidor de Arquivos e Permissões (Próximos Passos)
 * **Objetivo:** Configurar um servidor de arquivos com pastas departamentais e permissões de segurança NTFS específicas para cada grupo.

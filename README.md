@@ -11,7 +11,7 @@ Este projeto demonstra a criação e o gerenciamento de uma infraestrutura de TI
 * **Habilidades Demonstradas:** Windows Server, AD DS, DNS, Group Policy Management, Troubleshooting.
 * **[Ver Detalhes e Screenshots da Fase 1](#fase-1-detalhes)**
 
-### 🔜 Fase 2: Automação com PowerShell (Próximos Passos)
+### ✅ Fase 2: Automação com PowerShell (Próximos Passos)
 * **Objetivo:** Desenvolver scripts para automatizar tarefas rotineiras, como a criação de novos usuários em massa a partir de um arquivo CSV.
 
 ### 🔜 Fase 3: Servidor de Arquivos e Permissões (Próximos Passos)

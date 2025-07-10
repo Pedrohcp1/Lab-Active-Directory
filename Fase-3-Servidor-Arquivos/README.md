@@ -45,5 +45,3 @@ Os testes de acesso foram realizados a partir da máquina cliente (`WKS-W10-01`)
 <img width="630" height="330" alt="04_Pasta-SemAcesso" src="https://github.com/user-attachments/assets/8c042fbb-9053-4cea-ac08-3c7bb6c726c0" />
 
 Figura 4: Comprovação do acesso negado ao usuario do departamento diferente. 
-
-**[⬅️ Voltar para o Projeto Principal](../README.md)**
